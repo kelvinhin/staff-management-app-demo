@@ -11,7 +11,7 @@ data class StaffListResponse(
     val total: Int,
     @SerialName("total_pages")
     val totalPages: Int,
-    val data: Data
+    val data: List<Data>
 ) {
     @Serializable
     data class Data(
